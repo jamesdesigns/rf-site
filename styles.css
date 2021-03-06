@@ -16,7 +16,6 @@ header nav {
   font-weight: 100;
   margin: 0;
   padding: 0;
-  background-color: red;
   color: white;
   height: 100vh;
   text-align: center;
@@ -46,6 +45,7 @@ header nav ul .main-menu {
 
 section {
   width: 100%;
+  background-color: #DCDCDC;
 }
 section .top-container {
   display: flex;
@@ -57,8 +57,11 @@ section .top-container {
 }
 section .top-container aside {
   width: 30%;
-  background-color: #f2f2f2;
   height: 300px;
+  background-color: white;
+  box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
 }
 section .top-container aside h2 {
   margin-top: 10px;
@@ -77,10 +80,13 @@ section .top-container aside ul li {
   padding-bottom: 15px;
 }
 section .top-container .day-planner {
-  width: 60.5%;
+  width: 63.75%;
   height: 300px;
   margin: 0 30px;
-  background-color: #f2f2f2;
+  background-color: white;
+  box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
 }
 section .top-container .day-planner h2 {
   margin-top: 10px;
@@ -94,10 +100,13 @@ section .btm-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #f2f2f2;
-  width: 94%;
+  background-color: white;
+  width: 96%;
   height: 300px;
   margin: 30px;
+  box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
 }
 
 /*# sourceMappingURL=styles.css.map */
