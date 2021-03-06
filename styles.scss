@@ -112,11 +112,22 @@ section {
   align-items: center;
   background-color: white;
   width: 96%;
-  height: 300px;
+  height: 550px;
   margin: 30px;
   box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
   -webkit-box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
+
+
+  .col-1 { width: 6.5%; }
+  .col-2 { width: 12.5%; }
+  .col-3 { width: 12.5%; }
+  .col-4 { width: 12.5%; }
+  .col-5 { width: 12.5%; }
+  .col-6 { width: 12.5%; }
+  .col-7 { width: 12.5%; }
+  .col-8 { width: 12.5%; }
+
 }
 }
 
