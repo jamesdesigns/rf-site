@@ -65,9 +65,15 @@ section {
   height: 300px;
   margin: 30px;
 
+  .badge-output {
+    display: flex;
+
+      .align-right { float: right }
+  }
+
   aside {
     width: 30%;
-    height: 300px;
+    height: 340px;
     background-color: white;
     box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
     -webkit-box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
@@ -95,7 +101,7 @@ section {
 
   .day-planner {
     width: 63.75%;
-    height: 300px;
+    height: 340px;
     margin: 0 30px;
     background-color: white;
     box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
@@ -119,8 +125,8 @@ section {
   flex-direction: row;
   background-color: white;
   width: 96%;
-  height: 550px;
-  margin: 30px;
+  height: 500px;
+  margin: 50px 30px 30px 30px;
   box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
   -webkit-box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
@@ -132,7 +138,6 @@ section {
     border-collapse: collapse;
     font-size: 14px;
   
-
     th {
       background: white;
       color: purple;
@@ -141,29 +146,23 @@ section {
       border-bottom: 1px solid purple
     }
 
-    // th:nth-child(1) {
-    //   border-bottom: 1px solid purple
-    // }
-
-
     td, th {
       border-top: 1px solid #ccc;
       text-align: left;
-      padding: 9px 0;
+      padding: 12px 0;
     }
   }
 
   .col-1-purple { width: 3.5%; padding-left: 15px;}
-  .col-1 { width: 3.5%; padding-left: 15px; border-bottom: 1px solid #ccc }
-  .col-2 { width: 12.5%; }
-  .col-3 { width: 6.5%; }
-  .col-4 { width: 15.5%; }
-  .col-5 { width: 6.5%; }
-  .col-6 { width: 12.5%; }
-  .col-7 { width: 6.5%; }
-  .col-8 { width: 6.5%; }
+  .col-1 { width: 2.5%; padding-left: 15px; border-bottom: 1px solid #ccc }
+  .col-2 { width: 4.5%; }
+  .col-3 { width: 4.5%; }
+  .col-4 { width: 8.5%; }
+  .col-5 { width: 4.5%; }
+  .col-6 { width: 10.5%; }
+  .col-7 { width: 3.5%; }
+  .col-8 { width: 4.5%; }
 
-  td { margin: 0; padding: 0; }
 }
 
 }
