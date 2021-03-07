@@ -106,6 +106,10 @@ section .top-container .day-planner h2 {
   border-bottom: 1px solid #C8C8C8;
   font-family: "Noto Sans JP", sans-serif;
 }
+section .top-container .day-planner .date {
+  color: gray;
+  font-size: 14px;
+}
 section .btm-container {
   display: flex;
   flex-direction: row;
