@@ -130,36 +130,35 @@ section {
     border-collapse: collapse;
     font-size: 14px;
 
-    tr:nth-of-type(odd) {
-      background: #fff
-    }
-
     th {
       background: white;
-      color: black;
+      color: purple;
       font-weight: bold;
-      text-align: left
+      text-align: left;
+      border-bottom: 1px solid purple
     }
+
+    // th:nth-child(1) {
+    //   border-bottom: 1px solid purple
+    // }
+
 
     td, th {
       border-top: 1px solid #ccc;
       text-align: left;
-      padding: 8px 0;
+      padding: 9px 0;
     }
+  }
 
 
 
-    }
-
-
-
-  .col-1 { width: 6.5%; }
+  .col-1 { width: 6.5%; padding-left: 15px;}
   .col-2 { width: 12.5%; }
-  .col-3 { width: 12.5%; }
-  .col-4 { width: 12.5%; }
-  .col-5 { width: 12.5%; }
+  .col-3 { width: 6.5%; }
+  .col-4 { width: 15.5%; }
+  .col-5 { width: 6.5%; }
   .col-6 { width: 12.5%; }
-  .col-7 { width: 12.5%; }
+  .col-7 { width: 6.5%; }
   .col-8 { width: 12.5%; }
 
   td { margin: 0; padding: 0; }
