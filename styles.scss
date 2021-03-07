@@ -10,6 +10,7 @@ body {
 
 header {
   flex-direction: column;
+  align-items: stretch;
   width: 75px;
 
   nav {
@@ -17,29 +18,36 @@ header {
     margin: 0;
     padding: 0;
     color: white;
-    height: 100vh;
+    // height: 100vh;
+    min-height: 100%;
     text-align: center;
     background: #ce485f;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #ce485f, #8e397f);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #ce485f, #8e397f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+  
+
+    .top-menu {
+     flex: 1
+    }
+
     .logo-title {
       padding-top: 15px;
+    }
+
+    .main-menu {
+      flex: 8
+    }
+
+    .btm-menu {
+      flex: 1
     }
 
     ul {
       border-bottom: 1px solid white;
       padding: 20px 0;
 
-      li { padding-bottom: 25px;}
+      li { padding-bottom: 15px;}
 
-      .top-menu {
-        height: 200px
-      }
-
-      .main-menu {
-        height: 71%;
-      }
     }
   
   }
@@ -109,7 +117,6 @@ section {
 .btm-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
   background-color: white;
   width: 96%;
   height: 550px;
@@ -117,6 +124,33 @@ section {
   box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
   -webkit-box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+
+    tr:nth-of-type(odd) {
+      background: #fff
+    }
+
+    th {
+      background: white;
+      color: black;
+      font-weight: bold;
+      text-align: left
+    }
+
+    td, th {
+      border-top: 1px solid #ccc;
+      text-align: left;
+      padding: 8px 0;
+    }
+
+
+
+    }
+
 
 
   .col-1 { width: 6.5%; }
@@ -127,6 +161,8 @@ section {
   .col-6 { width: 12.5%; }
   .col-7 { width: 12.5%; }
   .col-8 { width: 12.5%; }
+
+  td { margin: 0; padding: 0; }
 
 }
 }
