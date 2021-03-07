@@ -125,10 +125,13 @@ section {
   -webkit-box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
 
+
+
   table {
     width: 100%;
     border-collapse: collapse;
     font-size: 14px;
+  
 
     th {
       background: white;
@@ -150,19 +153,18 @@ section {
     }
   }
 
-
-
-  .col-1 { width: 6.5%; padding-left: 15px;}
+  .col-1-purple { width: 3.5%; padding-left: 15px;}
+  .col-1 { width: 3.5%; padding-left: 15px; border-bottom: 1px solid #ccc }
   .col-2 { width: 12.5%; }
   .col-3 { width: 6.5%; }
   .col-4 { width: 15.5%; }
   .col-5 { width: 6.5%; }
   .col-6 { width: 12.5%; }
   .col-7 { width: 6.5%; }
-  .col-8 { width: 12.5%; }
+  .col-8 { width: 6.5%; }
 
   td { margin: 0; padding: 0; }
-
 }
+
 }
 

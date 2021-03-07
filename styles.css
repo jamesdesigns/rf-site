@@ -128,9 +128,14 @@ section .btm-container table td, section .btm-container table th {
   text-align: left;
   padding: 9px 0;
 }
-section .btm-container .col-1 {
-  width: 6.5%;
+section .btm-container .col-1-purple {
+  width: 3.5%;
   padding-left: 15px;
+}
+section .btm-container .col-1 {
+  width: 3.5%;
+  padding-left: 15px;
+  border-bottom: 1px solid #ccc;
 }
 section .btm-container .col-2 {
   width: 12.5%;
@@ -151,7 +156,7 @@ section .btm-container .col-7 {
   width: 6.5%;
 }
 section .btm-container .col-8 {
-  width: 12.5%;
+  width: 6.5%;
 }
 section .btm-container td {
   margin: 0;
