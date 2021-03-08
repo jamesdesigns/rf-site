@@ -25,8 +25,15 @@ header {
     background: -webkit-linear-gradient(to bottom, #ce485f, #8e397f);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #ce485f, #8e397f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
-    .menu-item {
+    li { padding-top: 10px }
+
+    li a { 
       color: white;
+    }
+
+    li.menu-item:hover,
+    li.menu-item:active {
+      background-color: #9b375c
     }
 
     .top-menu {
@@ -54,7 +61,7 @@ header {
       border-bottom: 1px solid white;
       padding: 20px 0;
 
-      li { padding-bottom: 15px;}
+      li { padding-bottom: 10px;}
 
     }
   

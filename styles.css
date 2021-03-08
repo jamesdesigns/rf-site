@@ -27,8 +27,15 @@ header nav {
   background: linear-gradient(to bottom, #ce485f, #8e397f);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-header nav .menu-item {
+header nav li {
+  padding-top: 10px;
+}
+header nav li a {
   color: white;
+}
+header nav li.menu-item:hover,
+header nav li.menu-item:active {
+  background-color: #9b375c;
 }
 header nav .top-menu {
   flex: 1;
@@ -51,7 +58,7 @@ header nav ul {
   padding: 20px 0;
 }
 header nav ul li {
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 section {
