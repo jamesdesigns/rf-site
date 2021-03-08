@@ -27,7 +27,12 @@ header {
   
 
     .top-menu {
-     flex: 1
+     flex: 1;
+
+     .logo {
+       width: 22px;
+       height: 22px;
+     }
     }
 
     .logo-title {

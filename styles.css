@@ -30,6 +30,10 @@ header nav {
 header nav .top-menu {
   flex: 1;
 }
+header nav .top-menu .logo {
+  width: 22px;
+  height: 22px;
+}
 header nav .logo-title {
   padding-top: 15px;
 }
