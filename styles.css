@@ -27,6 +27,9 @@ header nav {
   background: linear-gradient(to bottom, #ce485f, #8e397f);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+header nav .menu-item {
+  color: white;
+}
 header nav .top-menu {
   flex: 1;
 }
