@@ -4,6 +4,18 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 
+.font-size-14 {
+  font-size: 14px;
+}
+
+.pad-left-15 {
+  padding-left: 15px;
+}
+
+.pad-right-15 {
+  padding-right: 15px;
+}
+
 body {
   display: flex;
 }
@@ -78,10 +90,15 @@ section .top-container .badge-output {
   flex-wrap: wrap;
   flex-basis: 50%;
 }
-section .top-container .badge-output .align-right {
+section .top-container .badge-output .align-right-icon {
   text-align: right;
   margin-left: auto;
   margin-top: 15px;
+  padding-right: 25px;
+}
+section .top-container .badge-output .align-right-icon-btm {
+  text-align: right;
+  margin-left: auto;
   padding-right: 25px;
 }
 section .top-container aside {
@@ -107,6 +124,15 @@ section .top-container aside ul li {
   font-size: 14px;
   list-style-type: none;
   padding-bottom: 15px;
+}
+section .top-container aside ul li .check-in {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+}
+section .top-container aside ul li .check-in .edit-badge {
+  text-align: right;
+  margin-left: auto;
 }
 section .top-container .day-planner {
   width: 63.75%;

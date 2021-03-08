@@ -4,6 +4,11 @@
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+.font-size-14 { font-size: 14px }
+.pad-left-15 { padding-left: 15px }
+.pad-right-15 { padding-right: 15px }
+
+
 body {
   display: flex;
 }
@@ -43,6 +48,7 @@ header {
        width: 22px;
        height: 22px;
      }
+
     }
 
     .logo-title {
@@ -85,10 +91,17 @@ section {
     flex-wrap: wrap;
     flex-basis: 50%;
 
-    .align-right { 
+    .align-right-icon { 
       text-align: right;
       margin-left: auto;
       margin-top: 15px;
+      padding-right: 25px
+     }
+
+    .align-right-icon-btm { 
+      text-align: right;
+      margin-left: auto;
+      // margin-top: 15px;
       padding-right: 25px
      }
   }
@@ -117,7 +130,20 @@ section {
         font-size: 14px;
         list-style-type: none;
         padding-bottom: 15px;
+
+        .check-in {
+          display: flex;
+          flex-wrap: wrap;
+          flex-basis: 50%;
+
+          .edit-badge {
+            text-align: right;
+            margin-left: auto
+          }
+        }
+
       }
+
     }
   }
 
