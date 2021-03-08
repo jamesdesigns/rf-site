@@ -82,8 +82,15 @@ section {
 
   .badge-output {
     display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
 
-      .align-right { float: right }
+    .align-right { 
+      text-align: right;
+      margin-left: auto;
+      margin-top: 15px;
+      padding-right: 25px
+     }
   }
 
   aside {

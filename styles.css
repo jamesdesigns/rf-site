@@ -75,9 +75,14 @@ section .top-container {
 }
 section .top-container .badge-output {
   display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
 }
 section .top-container .badge-output .align-right {
-  float: right;
+  text-align: right;
+  margin-left: auto;
+  margin-top: 15px;
+  padding-right: 25px;
 }
 section .top-container aside {
   width: 30%;
