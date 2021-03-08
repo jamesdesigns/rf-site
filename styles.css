@@ -16,6 +16,26 @@
   padding-right: 15px;
 }
 
+.width-11 {
+  width: 10.5%;
+}
+
+.date-border {
+  padding: 20px;
+  height: 50px;
+  border: 2px solid red;
+}
+
+.red-divider {
+  color: red;
+  margin: 0 8px;
+}
+
+.purple-text {
+  color: purple;
+  text-align: left;
+}
+
 body {
   display: flex;
 }
@@ -143,6 +163,10 @@ section .top-container .day-planner {
   -webkit-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
 }
+section .top-container .day-planner .scheduled-time {
+  margin: 0;
+  padding: 0;
+}
 section .top-container .day-planner h2 {
   margin-top: 10px;
   margin-bottom: 15px;
@@ -154,6 +178,12 @@ section .top-container .day-planner h2 {
 section .top-container .day-planner .date {
   color: gray;
   font-size: 14px;
+}
+section .top-container .day-planner table {
+  width: 100%;
+}
+section .top-container .day-planner table tr {
+  width: 100%;
 }
 section .btm-container {
   display: flex;
