@@ -258,7 +258,7 @@ section .btm-container .col-end {
   padding-left: 15px;
 }
 section .btm-container .col-2 {
-  width: 12.5%;
+  width: 20.5%;
 }
 section .btm-container .col-3 {
   width: 12.5%;
@@ -273,10 +273,10 @@ section .btm-container .col-6 {
   width: 12.5%;
 }
 section .btm-container .col-7 {
-  width: 12.5%;
+  width: 8.5%;
 }
 section .btm-container .col-8 {
-  width: 12.5%;
+  width: 8.5%;
 }
 
 /*# sourceMappingURL=styles.css.map */
