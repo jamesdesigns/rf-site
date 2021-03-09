@@ -11,6 +11,7 @@
 .font-size-24 { font-size: 24px }
 .pad-left-15 { padding-left: 15px }
 .pad-right-15 { padding-right: 15px }
+.pad-top-30 { padding-top: 30px }
 .width-13 { 
   width: 13.25%;
   border-bottom: 1px solid #ccc
@@ -89,10 +90,6 @@ header {
        height: 22px;
      }
 
-    }
-
-    .logo-title {
-      padding-top: 15px;
     }
 
     .main-menu {
@@ -277,7 +274,7 @@ section {
   }
 
   .col-2 { width: 20.5%; }
-  .col-3 { width: 18.5%; }
+  .col-3 { width: 7.5%; }
   .col-4 { width: 16.5%; }
   .col-5 { width: 12.5%; }
   .col-6 { width: 18.5%; }

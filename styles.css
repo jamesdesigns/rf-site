@@ -29,6 +29,10 @@
   padding-right: 15px;
 }
 
+.pad-top-30 {
+  padding-top: 30px;
+}
+
 .width-13 {
   width: 13.25%;
   border-bottom: 1px solid #ccc;
@@ -104,9 +108,6 @@ header nav .top-menu {
 header nav .top-menu .logo {
   width: 22px;
   height: 22px;
-}
-header nav .logo-title {
-  padding-top: 15px;
 }
 header nav .main-menu {
   flex: 8;
@@ -262,7 +263,7 @@ section .btm-container .col-2 {
   width: 20.5%;
 }
 section .btm-container .col-3 {
-  width: 18.5%;
+  width: 7.5%;
 }
 section .btm-container .col-4 {
   width: 16.5%;
