@@ -88,6 +88,9 @@ body {
 
 header {
   width: 75px;
+  box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
 }
 header nav {
   display: flex;
@@ -313,25 +316,25 @@ section .btm-container .col-end {
   padding-left: 15px;
 }
 section .btm-container .col-2 {
-  width: 20.5%;
+  width: 1.5%;
 }
 section .btm-container .col-3 {
   width: 7.5%;
 }
 section .btm-container .col-4 {
-  width: 16.5%;
+  width: 24.5%;
 }
 section .btm-container .col-5 {
-  width: 12.5%;
+  width: 8.5%;
 }
 section .btm-container .col-6 {
-  width: 18.5%;
+  width: 31%;
 }
 section .btm-container .col-7 {
   width: 6.5%;
 }
 section .btm-container .col-8 {
-  width: 16.5%;
+  width: 20.5%;
 }
 
 /*# sourceMappingURL=styles.css.map */

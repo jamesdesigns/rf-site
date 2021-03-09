@@ -60,6 +60,9 @@ body {
 
 header {
   width: 75px;
+  box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 5px -4px rgba(0,0,0,0.75);
 
   nav {
     display: flex;
@@ -322,13 +325,13 @@ section {
     padding-left: 15px 
   }
 
-  .col-2 { width: 20.5%; }
+  .col-2 { width: 1.5%; }
   .col-3 { width: 7.5%; }
-  .col-4 { width: 16.5%; }
-  .col-5 { width: 12.5%; }
-  .col-6 { width: 18.5%; }
+  .col-4 { width: 24.5%; }
+  .col-5 { width: 8.5%; }
+  .col-6 { width: 31%; }
   .col-7 { width: 6.5%; }
-  .col-8 { width: 16.5%; }
+  .col-8 { width: 20.5%; }
   // 12.5 Total = 100
   // 
 }
