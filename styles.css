@@ -39,6 +39,7 @@
   color: purple;
   text-align: left;
   border-bottom: 1px solid #ccc;
+  font-weight: 500;
 }
 
 .session {
@@ -165,8 +166,9 @@ section .top-container aside ul li .check-in .edit-badge {
   margin-left: auto;
 }
 section .top-container .day-planner {
+  font-size: 14px;
   width: 63.75%;
-  height: 340px;
+  height: 315px;
   margin: 0 30px;
   overflow: auto;
   background-color: white;

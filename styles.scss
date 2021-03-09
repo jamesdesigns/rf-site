@@ -26,7 +26,8 @@
 .find-sessions { 
   color: purple; 
   text-align: left;
-  border-bottom: 1px solid #ccc
+  border-bottom: 1px solid #ccc;
+  font-weight: 500
 }
 
 .session {
@@ -176,8 +177,9 @@ section {
   }
 
   .day-planner {
+    font-size: 14px;
     width: 63.75%;
-    height: 340px;
+    height: 315px;
     margin: 0 30px;
     overflow: auto;
     background-color: white;
