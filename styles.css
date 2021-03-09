@@ -4,12 +4,20 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 
+.text-gray {
+  color: #9e9e9e;
+}
+
 .font-weight-100 {
   font-weight: 100;
 }
 
 .font-size-14 {
   font-size: 14px;
+}
+
+.font-size-24 {
+  font-size: 24px;
 }
 
 .pad-left-15 {
@@ -190,8 +198,7 @@ section .top-container .day-planner .scheduled-time {
 }
 section .top-container .day-planner h2 {
   margin-top: 10px;
-  padding-bottom: 15px;
-  padding-left: 15px;
+  padding: 0 0 15px 15px;
   border-bottom: 1px solid #C8C8C8;
   font-family: "Noto Sans JP", sans-serif;
 }
@@ -232,7 +239,7 @@ section .btm-container table th {
 section .btm-container table td, section .btm-container table th {
   border-top: 1px solid #ccc;
   text-align: left;
-  padding: 12px 0;
+  padding: 5px 0;
 }
 section .btm-container table input:checked {
   color: purple;
