@@ -9,14 +9,18 @@
 .font-weight-100 { font-weight: 100 }
 .font-size-14 { font-size: 14px }
 .font-size-24 { font-size: 24px }
-.pad-left-15 { padding-left: 15px }
-.pad-right-15 { padding-right: 15px }
+.pad-top-15 { padding-top: 15px }
 .pad-top-30 { padding-top: 30px }
+.pad-right-15 { padding-right: 15px }
+.pad-bottom-30 { padding-bottom: 30px }
+.pad-left-15 { padding-left: 15px }
+
+.no-border { border: none }
+
 .width-13 { 
   width: 13.25%;
   border-bottom: 1px solid #ccc
 }
-
 
 .date-border { 
   padding: 20px;
@@ -55,17 +59,17 @@ body {
 }
 
 header {
-  flex-direction: column;
-  align-items: stretch;
   width: 75px;
 
   nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-weight: 100;
     margin: 0;
     padding: 0;
     color: white;
-    // height: 100vh;
-    min-height: 100%;
+    height: 100%;
     text-align: center;
     background: #ce485f;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #ce485f, #8e397f);  /* Chrome 10-25, Safari 5.1-6 */
@@ -101,8 +105,8 @@ header {
     }
 
     ul {
-      border-bottom: 1px solid white;
-      padding: 10px 0;
+      border-top: 1px solid white;
+      // padding: 10px 0;
 
       li { padding-bottom: 10px;}
 
@@ -120,7 +124,7 @@ section {
   align-items: center;
   max-width: 1200px;
   height: 340px;
-  margin: 30px 0 30px 30px;
+  margin: 15px 0 30px 30px;
 
   .badge-output {
     display: flex;
