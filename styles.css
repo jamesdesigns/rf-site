@@ -18,12 +18,12 @@
 
 .width-11 {
   width: 10.5%;
+  border-bottom: 1px solid #ccc;
 }
 
 .date-border {
   padding: 20px;
   height: 50px;
-  border: 2px solid red;
 }
 
 .red-divider {
@@ -31,9 +31,15 @@
   margin: 0 8px;
 }
 
-.purple-text {
+.find-sessions {
   color: purple;
   text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.session {
+  text-align: left;
+  border-bottom: 1px solid #ccc;
 }
 
 body {
@@ -158,6 +164,7 @@ section .top-container .day-planner {
   width: 63.75%;
   height: 340px;
   margin: 0 30px;
+  overflow: auto;
   background-color: white;
   box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
@@ -169,7 +176,6 @@ section .top-container .day-planner .scheduled-time {
 }
 section .top-container .day-planner h2 {
   margin-top: 10px;
-  margin-bottom: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
   border-bottom: 1px solid #C8C8C8;
@@ -189,6 +195,7 @@ section .btm-container {
   display: flex;
   flex-direction: row;
   background-color: white;
+  overflow: auto;
   width: 96%;
   height: 500px;
   margin: 50px 30px 30px 30px;
