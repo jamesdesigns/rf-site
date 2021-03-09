@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.25;
 }
 
 .text-gray {
@@ -93,8 +94,8 @@ header nav li {
 header nav li a {
   color: white;
 }
-header nav li.menu-item:hover,
-header nav li.menu-item:active {
+header nav .menu-item:hover,
+header nav .menu-item:active {
   background-color: #9b375c;
 }
 header nav .top-menu {
@@ -115,7 +116,7 @@ header nav .btm-menu {
 }
 header nav ul {
   border-bottom: 1px solid white;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 header nav ul li {
   padding-bottom: 10px;
@@ -239,7 +240,7 @@ section .btm-container table th {
 section .btm-container table td, section .btm-container table th {
   border-top: 1px solid #ccc;
   text-align: left;
-  padding: 5px 0;
+  padding: 10px;
 }
 section .btm-container table input:checked {
   color: purple;
@@ -249,7 +250,7 @@ section .btm-container .col-1-purple {
   padding-left: 15px;
 }
 section .btm-container .col-1 {
-  width: 8.5%;
+  width: 6.5%;
   padding-left: 15px;
   border-bottom: 1px solid #ccc;
 }
@@ -261,22 +262,22 @@ section .btm-container .col-2 {
   width: 20.5%;
 }
 section .btm-container .col-3 {
-  width: 12.5%;
+  width: 18.5%;
 }
 section .btm-container .col-4 {
-  width: 12.5%;
+  width: 16.5%;
 }
 section .btm-container .col-5 {
   width: 12.5%;
 }
 section .btm-container .col-6 {
-  width: 12.5%;
+  width: 18.5%;
 }
 section .btm-container .col-7 {
-  width: 8.5%;
+  width: 6.5%;
 }
 section .btm-container .col-8 {
-  width: 8.5%;
+  width: 16.5%;
 }
 
 /*# sourceMappingURL=styles.css.map */
