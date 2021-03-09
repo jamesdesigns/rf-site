@@ -226,6 +226,9 @@ section .btm-container table td, section .btm-container table th {
   text-align: left;
   padding: 12px 0;
 }
+section .btm-container table input:checked {
+  color: purple;
+}
 section .btm-container .col-1-purple {
   width: 3.5%;
   padding-left: 15px;
