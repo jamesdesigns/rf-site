@@ -20,8 +20,8 @@
   padding-right: 15px;
 }
 
-.width-11 {
-  width: 14.5%;
+.width-13 {
+  width: 13.25%;
   border-bottom: 1px solid #ccc;
 }
 
@@ -45,6 +45,14 @@
 .session {
   text-align: left;
   border-bottom: 1px solid #ccc;
+}
+
+.task-flex {
+  float: right;
+  padding-right: 20px;
+  margin-top: -10px;
+  color: purple;
+  font-size: 16px;
 }
 
 body {
@@ -112,9 +120,9 @@ section .top-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100%;
-  height: 300px;
-  margin: 30px;
+  max-width: 1200px;
+  height: 340px;
+  margin: 30px 0 30px 30px;
 }
 section .top-container .badge-output {
   display: flex;
@@ -135,6 +143,7 @@ section .top-container .badge-output .align-right-icon-btm {
 section .top-container aside {
   width: 30%;
   height: 340px;
+  margin-right: 30px;
   background-color: white;
   box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
@@ -167,9 +176,8 @@ section .top-container aside ul li .check-in .edit-badge {
 }
 section .top-container .day-planner {
   font-size: 14px;
-  width: 63.75%;
-  height: 315px;
-  margin: 0 30px;
+  width: 64.75%;
+  height: 340px;
   overflow: auto;
   background-color: white;
   box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
@@ -202,9 +210,9 @@ section .btm-container {
   flex-direction: row;
   background-color: white;
   overflow: auto;
-  width: 96%;
+  max-width: 1200px;
   height: 500px;
-  margin: 50px 30px 30px 30px;
+  margin: 30px;
   box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
