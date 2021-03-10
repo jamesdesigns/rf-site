@@ -1,4 +1,4 @@
-// Create a function that toggles all checkboxes when the user clicks the top checkbox
+// Toggles all checkboxes when the user clicks the checkbox in the table header
 function toggle(source) {
   var checkboxes = document.querySelectorAll('input[type="checkbox"]');
   for (var i = 0; i < checkboxes.length; i++) {
@@ -6,3 +6,4 @@ function toggle(source) {
           checkboxes[i].checked = source.checked;
   }
 }
+
