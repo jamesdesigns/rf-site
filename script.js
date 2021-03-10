@@ -1,3 +1,8 @@
-const checkBox = querySelector('#allItems');
-console.log(checkBox);
-
+// Create a function that toggles all checkboxes when the user clicks the top checkbox
+function toggle(source) {
+  var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  for (var i = 0; i < checkboxes.length; i++) {
+      if (checkboxes[i] != source)
+          checkboxes[i].checked = source.checked;
+  }
+}
