@@ -78,21 +78,31 @@
             </div>
           </div>
           <!-- End of Custom Modal -->
-
-          
         </div>
 
         <ul class="font-weight-100">
-          <li><b>First Name:</b> Allison</li>
-          <li><b>Preferred First Name for Badge:</b> Al</li>
-          <li><b>Last Name:</b> Profit</li>
-          <li><b>Company:</b> Bio-IT World</li>
-          <li><b>Onsite - Badge Holders:</b> JVA</li>
-          <li><b>Onsite - Aux:</b> 1</li>
+          <li><b>First Name:</b> <span class="data">Allison</span></li>
+          <li><b>Preferred First Name for Badge:</b> <span class="data">Al</span></li>
+          <li><b>Last Name:</b> <span class="data">Profit</span></li>
+          <li><b>Company:</b> <span class="data">Bio-IT World</span></li>
+          <li><b>Onsite - Badge Holders:</b> <span class="data">JVA</span></li>
+          <li><b>Onsite - Aux:</b> <span class="data">1</span></li>
         </ul>
 
         <div class="badge-output pad-top-30">
-          <p class="font-size-14 pad-left-15"><b>Check-In:</b> <small>09/16/16 7:51 AM</small></p><span class="text-gray align-right-icon-btm"><span class="pad-right-15"><i class="lni lni-trash"></i></span><i class="lni lni-printer"></i></span>
+          <p class="font-size-14 pad-left-15"><b>Check-In:</b> <small>09/16/16 7:51 AM</small></p><a class="#" href="#" onclick="pop()"><span class="text-gray"><span class="delete-button pad-right-15"><i class="lni lni-trash"></i></span></a><span class="text-gray"><span class="pad-right-15"><i class="lni lni-printer"></i></span>
+          <!-- Custom Popup -->
+          <div id="box">
+              <p class="text-center pad-top-30 pad-bottom-30">Do you want to delete user info?</p>
+                <ul>
+                  <li>Yes &nbsp;<input type="radio" name="choice" value="yes" /></li>
+                  <li>No &nbsp;<input type="radio" name="choice" value="no" /></li>
+                </ul>
+                <div class="submit-container">
+                  <input class="close" type="button" id="btn" value="SUBMIT">
+                </div>
+          </div>
+          <!-- End of Custom Popup -->
         </div>
       </aside>
 

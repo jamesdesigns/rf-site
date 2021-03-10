@@ -6,6 +6,10 @@
   line-height: 1.25;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-gray {
   color: #9e9e9e;
 }
@@ -20,6 +24,10 @@
 
 .font-size-14 {
   font-size: 14px;
+}
+
+.font-size-18 {
+  font-size: 18px;
 }
 
 .font-size-24 {
@@ -168,6 +176,8 @@ section .top-container .badge-output {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 50%;
+  /* Custom styles for Popup */
+  /* End of Custom styles for Popup */
 }
 section .top-container .badge-output .align-right-icon {
   text-align: right;
@@ -193,6 +203,9 @@ section .top-container .badge-output .button:hover {
 }
 section .top-container .badge-output .button:active {
   color: purple;
+}
+section .top-container .badge-output .delete-button {
+  margin-left: 105px;
 }
 section .top-container .badge-output .overlay {
   position: absolute;
@@ -268,6 +281,74 @@ section .top-container .badge-output .popup p {
 }
 section .top-container .badge-output .popup p:last-child {
   margin: 0;
+}
+section .top-container .badge-output .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #9e9e9e;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+section .top-container .badge-output #box {
+  width: 500px;
+  overflow: hidden;
+  color: black;
+  background: white;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  text-align: center;
+  display: none;
+}
+section .top-container .badge-output #box span {
+  color: black;
+  font-size: 18px;
+  display: block;
+}
+section .top-container .badge-output #box h1 {
+  color: brown;
+}
+section .top-container .badge-output #box ul {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  border-top: 1px solid #C8C8C8;
+  padding-left: 15px;
+}
+section .top-container .badge-output #box ul li {
+  font-size: 14px;
+  list-style-type: none;
+  padding-bottom: 15px;
+}
+section .top-container .badge-output #box .submit-container {
+  width: 100%;
+  background-color: purple;
+  padding: 10px;
+}
+section .top-container .badge-output #box .submit-container .close {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+section .top-container .badge-output #box .submit-container input {
+  outline: 0;
+}
+section .top-container .badge-output .close-popup {
+  font-size: 18px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 1px solid black;
 }
 section .top-container aside {
   width: 360px;
