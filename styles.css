@@ -50,6 +50,10 @@
   padding-left: 15px;
 }
 
+.margin-left-15 {
+  margin-left: 15px;
+}
+
 .no-border {
   border: none;
 }
@@ -104,11 +108,12 @@ header nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: stretch;
   font-weight: 100;
   margin: 0;
   padding: 0;
   color: white;
-  height: 100%;
+  height: 100vh;
   text-align: center;
   background: #ce485f;
   /* fallback for old browsers */
@@ -129,13 +134,14 @@ header nav .menu-item:active {
 }
 header nav .top-menu {
   flex: 1;
+  width: 75px;
 }
 header nav .top-menu .logo {
   width: 22px;
   height: 22px;
 }
 header nav .main-menu {
-  flex: 8;
+  flex: 6;
 }
 header nav .btm-menu {
   flex: 1;
@@ -231,7 +237,7 @@ section .top-container .badge-output .popup .header-popup {
 }
 section .top-container .badge-output .popup .footer {
   padding: 20px;
-  background-color: #ce485f;
+  background-color: #8e397f;
   margin-left: auto;
   margin-right: auto;
 }
@@ -241,7 +247,6 @@ section .top-container .badge-output .popup h2 {
   font-family: "Noto Sans JP", sans-serif;
 }
 section .top-container .badge-output .popup .close {
-  position: absolute;
   width: 20px;
   height: 20px;
   bottom: 20px;
@@ -265,7 +270,7 @@ section .top-container .badge-output .popup p:last-child {
   margin: 0;
 }
 section .top-container aside {
-  width: 30%;
+  width: 360px;
   height: 340px;
   margin-right: 30px;
   background-color: white;
