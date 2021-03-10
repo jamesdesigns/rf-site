@@ -10,6 +10,10 @@
   color: #9e9e9e;
 }
 
+.text-white {
+  color: white;
+}
+
 .font-weight-100 {
   font-weight: 100;
 }
@@ -20,6 +24,10 @@
 
 .font-size-24 {
   font-size: 24px;
+}
+
+.noto-font-family {
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .pad-top-15 {
@@ -165,6 +173,96 @@ section .top-container .badge-output .align-right-icon-btm {
   text-align: right;
   margin-left: auto;
   padding-right: 25px;
+}
+section .top-container .badge-output .button {
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  margin-top: 15px;
+  margin-left: 145px;
+}
+section .top-container .badge-output .button:hover {
+  color: purple;
+}
+section .top-container .badge-output .button:active {
+  color: purple;
+}
+section .top-container .badge-output .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+section .top-container .badge-output .overlay.light {
+  background: rgba(255, 255, 255, 0.5);
+}
+section .top-container .badge-output .overlay .cancel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: default;
+}
+section .top-container .badge-output .overlay:target {
+  visibility: visible;
+  opacity: 1;
+  padding-left: 32.5%;
+}
+section .top-container .badge-output .popup {
+  background: #fff;
+  width: 500px;
+  position: relative;
+  top: 20%;
+}
+.light section .top-container .badge-output .popup {
+  border-color: #aaa;
+}
+section .top-container .badge-output .popup .header-popup {
+  width: 100%;
+  padding: 5px;
+  font-weight: lighter;
+  box-shadow: none;
+}
+section .top-container .badge-output .popup .footer {
+  padding: 20px;
+  background-color: #ce485f;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .top-container .badge-output .popup h2 {
+  color: #666;
+  font-weight: 100;
+  font-family: "Noto Sans JP", sans-serif;
+}
+section .top-container .badge-output .popup .close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.8;
+  transition: all 200ms;
+  text-decoration: none;
+  color: #666;
+}
+section .top-container .badge-output .popup .close:hover {
+  opacity: 1;
+}
+section .top-container .badge-output .popup .content {
+  max-height: 400px;
+  overflow: auto;
+}
+section .top-container .badge-output .popup p {
+  margin: 0 0 1em;
+}
+section .top-container .badge-output .popup p:last-child {
+  margin: 0;
 }
 section .top-container aside {
   width: 30%;
