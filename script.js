@@ -21,12 +21,25 @@ var modal = null
 
 const btn = document.querySelector('#btn');
 // Handle Click Button
-btn.onclick = function() {
+btn.onclick = function(data_value) {
   const rbs = document.querySelectorAll('input[name="choice"]');
   let selectedValue;
   for  (const rb of rbs) {
     if (rb.checked) {
-      selectedValue = rb.nodeValue;
+      selectedValue = rb.value;
+      console.log(selectedValue);
+      document.querySelector('#box').style.display =  "none";
+
+      if (selectedValue === 'yes') {
+        document.querySelector('.firstName').style.display = "none";
+        document.querySelector('.preferredName').style.display = "none";
+        document.querySelector('.lastName').style.display = "none";
+        document.querySelector('.company').style.display = "none";
+        document.querySelector('.onsiteBadgeHolder').style.display = "none";
+        document.querySelector('.onsiteAux').style.display = "none";
+      } else {
+        document.querySelector('#box').style.display = "none";
+      }
       break;
     }
   }
