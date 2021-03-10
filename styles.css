@@ -394,8 +394,9 @@ section .top-container aside ul li .check-in .edit-badge {
 }
 section .top-container .day-planner {
   font-size: 14px;
-  width: 64.75%;
-  height: 340px;
+  width: 64%;
+  height: 317px;
+  margin-top: -22px;
   overflow: auto;
   background-color: white;
   box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
@@ -527,6 +528,44 @@ section .btm-container .col-7 {
 }
 section .btm-container .col-8 {
   width: 20.5%;
+}
+
+@media all and (max-width: 600px) and (min-width: 320px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  header nav .btm-menu {
+    flex: 5.5;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+  }
+  section .top-container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    height: 700px;
+  }
+  section .top-container aside {
+    display: block;
+    width: 360px;
+    height: auto;
+    padding-bottom: 30px;
+    margin-left: -140px;
+  }
+  section .top-container .day-planner {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: -50px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

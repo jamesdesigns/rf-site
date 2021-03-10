@@ -43,6 +43,6 @@ btn.onclick = function(data_value) {
       break;
     }
   }
-  alert(selectedValue);
+
 }
 
