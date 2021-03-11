@@ -19,6 +19,8 @@ var modal = null
     }
   }
 
+  
+// This Handles the functionality of the Delete Icon in the Badge Output
 const btn = document.querySelector('#btn');
 // Handle Click Button
 btn.onclick = function(data_value) {
