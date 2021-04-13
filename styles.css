@@ -140,6 +140,10 @@ header nav li {
 header nav li a {
   color: #fff;
 }
+header nav .menu-item {
+  text-decoration: none;
+  font-weight: bold;
+}
 header nav .menu-item:hover,
 header nav .menu-item:active {
   background-color: #9b375c;

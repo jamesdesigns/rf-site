@@ -108,6 +108,11 @@ header {
       color: $white;
     }
 
+    .menu-item { 
+      text-decoration: none;
+      font-weight: bold;
+    }
+
     .menu-item:hover,
     .menu-item:active {
       background-color: $menu-hover
