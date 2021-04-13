@@ -567,8 +567,11 @@ section .btm-container .col-8 {
   section .top-container .day-planner {
     width: 90%;
     margin-top: 30px;
-    margin-left: -50px;
+    margin-left: -110px;
     overflow: auto;
+  }
+  section .btm-container {
+    margin: 30px 5px;
   }
 }
 
