@@ -542,6 +542,7 @@ section .btm-container .col-8 {
     justify-content: space-between;
     height: 100%;
     margin-left: -500px;
+    /* This hides the navigation when on mobile -- test this */
   }
   header nav .btm-menu {
     flex: 5.5;
@@ -564,10 +565,10 @@ section .btm-container .col-8 {
   }
   section .top-container aside {
     display: block;
-    width: 360px;
+    width: 95%;
     height: auto;
     padding-bottom: 30px;
-    margin-left: -260px;
+    margin-left: -40px;
   }
   section .top-container .day-planner {
     width: 90%;
