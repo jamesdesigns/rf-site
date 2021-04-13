@@ -575,6 +575,12 @@ section {
       width: 600px;
       height: 700px;
 
+      .badge-output {
+        .delete-button {
+          margin-left: 50px;
+        }
+      }
+
       aside {
         display: block;
         width: 360px;
