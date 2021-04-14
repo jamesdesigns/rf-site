@@ -48,3 +48,12 @@ btn.onclick = function(data_value) {
 
 }
 
+// This creates the width of the pullout navigation on mobile
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
