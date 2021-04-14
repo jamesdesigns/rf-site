@@ -615,6 +615,7 @@ section .btm-container .col-8 {
     margin-top: 30px;
     margin-left: -110px;
     overflow: auto;
+    white-space: nowrap;
   }
   section .btm-container {
     margin: 30px 5px;
