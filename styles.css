@@ -560,9 +560,6 @@ section .btm-container .col-8 {
     width: 600px;
     height: 700px;
   }
-  section .top-container .badge-output .delete-button {
-    margin-left: 0;
-  }
   section .top-container aside {
     display: block;
     width: 95%;
