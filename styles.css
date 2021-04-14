@@ -108,6 +108,10 @@
   font-size: 16px;
 }
 
+.hide-for-desktop {
+  display: none;
+}
+
 body {
   display: flex;
   background-color: #dcdcdc;
@@ -585,6 +589,9 @@ section .btm-container .col-8 {
   }
   header .sidenav a {
     font-size: 18px;
+  }
+  header .hide-for-mobile {
+    display: none;
   }
   header nav {
     display: flex;

@@ -76,6 +76,8 @@ $menu-hover: #9b375c;
   font-size: 16px
 }
 
+.hide-for-desktop { display: none; }
+
 body {
   display: flex;
   background-color: $lightest-gray;
@@ -602,6 +604,8 @@ section {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
     /* End of New sidebar navigation */
+
+    .hide-for-mobile { display: none; }
 
 
     nav {
