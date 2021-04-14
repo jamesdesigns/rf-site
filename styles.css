@@ -161,7 +161,7 @@ header nav {
   margin: 0;
   padding: 0;
   color: #fff;
-  height: 100vh;
+  /* height: 100vh; This allows the Hamburger icon to show and nothing below it */
   text-align: center;
   background: #ce485f;
   /* fallback for old browsers */
