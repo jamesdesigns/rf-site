@@ -64,6 +64,10 @@
   margin-left: 15px;
 }
 
+.margin-top--30 {
+  margin-top: -30px;
+}
+
 .no-border {
   border: none;
 }
