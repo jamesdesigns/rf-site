@@ -137,7 +137,7 @@ header {
     margin: 0;
     padding: 0;
     color: $white;
-    height: 100vh; /* This allows the Hamburger icon to show and nothing below it */
+    /* height: 100vh;  This allows the Hamburger icon to show and nothing below it */
     text-align: center;
     background: $gradient-pink;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, $gradient-pink, $gradient-purple);  /* Chrome 10-25, Safari 5.1-6 */
