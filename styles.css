@@ -119,6 +119,7 @@ header {
   /* End of New Navigation  */
 }
 header .sidenav {
+  height: 100vh;
   width: 0;
   position: absolute;
   /* was fixed */
@@ -575,9 +576,6 @@ section .btm-container .col-8 {
   header {
     /* New for sidebar navigation */
     /* End of New sidebar navigation */
-  }
-  header .sidenav {
-    padding-top: 15px;
   }
   header .sidenav a {
     font-size: 18px;

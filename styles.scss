@@ -91,6 +91,7 @@ header {
 
   .sidenav {
     // height: 100%;
+    height: 100vh;
     width: 0;
     position: absolute; /* was fixed */
     z-index: 1;
@@ -599,7 +600,7 @@ section {
 @media screen and (max-width: 600px) {
   header {
     /* New for sidebar navigation */
-    .sidenav {padding-top: 15px;}
+    // .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
     /* End of New sidebar navigation */
 
