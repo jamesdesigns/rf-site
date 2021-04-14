@@ -112,9 +112,6 @@ body {
 /* Header Section */
 header {
   width: 75px;
-  box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 3px 3px 5px -4px rgba(0, 0, 0, 0.75);
   /* End of New Navigation  */
 }
 header .sidenav {
