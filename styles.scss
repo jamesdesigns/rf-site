@@ -185,10 +185,6 @@ header {
     ul {
       border-top: 1px solid $white;
     }
-
-    .hide-on-desktop {
-      display: none;
-    }
   
   }
 }
@@ -634,7 +630,10 @@ section {
     }
 
 
-      // .btm-menu { flex: 5.5; }
+
+    .hide-on-desktop {
+      display: none;
+    }
 
     }
   }

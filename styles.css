@@ -207,9 +207,6 @@ header nav .btm-menu {
 header nav ul {
   border-top: 1px solid #fff;
 }
-header nav .hide-on-desktop {
-  display: none;
-}
 
 /* Main Content Section */
 section {
@@ -602,6 +599,9 @@ section .btm-container .col-8 {
   header nav .btm-menu {
     display: none;
     flex: 5.5;
+  }
+  header nav .hide-on-desktop {
+    display: none;
   }
 
   section {
