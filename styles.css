@@ -207,6 +207,9 @@ header nav .btm-menu {
 header nav ul {
   border-top: 1px solid #fff;
 }
+header nav .hide-on-desktop {
+  display: none;
+}
 
 /* Main Content Section */
 section {
@@ -586,6 +589,7 @@ section .btm-container .col-8 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100vh;
     /*  margin-left: -500px; This hides the navigation when on mobile -- test this */
   }
   header nav .search-refresh {
