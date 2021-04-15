@@ -588,6 +588,9 @@ section .btm-container .col-8 {
     justify-content: space-between;
     /*  margin-left: -500px; This hides the navigation when on mobile -- test this */
   }
+  header nav .search-refresh {
+    display: none;
+  }
   header nav .main-menu {
     display: none;
     flex: 6;

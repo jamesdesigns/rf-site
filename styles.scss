@@ -614,6 +614,9 @@ section {
       // height: 100%;
      /*  margin-left: -500px; This hides the navigation when on mobile -- test this */
 
+     .search-refresh {
+       display: none;
+     }
 
      .main-menu {
       display: none;
@@ -624,6 +627,8 @@ section {
       display: none;
       flex: 5.5;
     }
+
+
       // .btm-menu { flex: 5.5; }
 
     }
