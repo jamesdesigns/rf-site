@@ -590,9 +590,11 @@ section .btm-container .col-8 {
   }
   header nav .main-menu {
     display: none;
+    flex: 6;
   }
   header nav .btm-menu {
     display: none;
+    flex: 5.5;
   }
 
   section {
